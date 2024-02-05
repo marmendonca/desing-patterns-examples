@@ -1,0 +1,14 @@
+/Users/mariliamendonca/Documents/projects/DesingPatternsExamples/bin/Debug/net8.0/DesingPatternsExamples
+/Users/mariliamendonca/Documents/projects/DesingPatternsExamples/bin/Debug/net8.0/DesingPatternsExamples.deps.json
+/Users/mariliamendonca/Documents/projects/DesingPatternsExamples/bin/Debug/net8.0/DesingPatternsExamples.runtimeconfig.json
+/Users/mariliamendonca/Documents/projects/DesingPatternsExamples/bin/Debug/net8.0/DesingPatternsExamples.dll
+/Users/mariliamendonca/Documents/projects/DesingPatternsExamples/bin/Debug/net8.0/DesingPatternsExamples.pdb
+/Users/mariliamendonca/Documents/projects/DesingPatternsExamples/obj/Debug/net8.0/DesingPatternsExamples.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mariliamendonca/Documents/projects/DesingPatternsExamples/obj/Debug/net8.0/DesingPatternsExamples.AssemblyInfoInputs.cache
+/Users/mariliamendonca/Documents/projects/DesingPatternsExamples/obj/Debug/net8.0/DesingPatternsExamples.AssemblyInfo.cs
+/Users/mariliamendonca/Documents/projects/DesingPatternsExamples/obj/Debug/net8.0/DesingPatternsExamples.csproj.CoreCompileInputs.cache
+/Users/mariliamendonca/Documents/projects/DesingPatternsExamples/obj/Debug/net8.0/DesingPatternsExamples.dll
+/Users/mariliamendonca/Documents/projects/DesingPatternsExamples/obj/Debug/net8.0/refint/DesingPatternsExamples.dll
+/Users/mariliamendonca/Documents/projects/DesingPatternsExamples/obj/Debug/net8.0/DesingPatternsExamples.pdb
+/Users/mariliamendonca/Documents/projects/DesingPatternsExamples/obj/Debug/net8.0/DesingPatternsExamples.genruntimeconfig.cache
+/Users/mariliamendonca/Documents/projects/DesingPatternsExamples/obj/Debug/net8.0/ref/DesingPatternsExamples.dll
