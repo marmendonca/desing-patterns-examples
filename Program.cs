@@ -1,9 +1,20 @@
-﻿using DesingPatternsExamples.Criational.FactoryMethod.Example;
+﻿using DesingPatternsExamples.Criational.AbstractFactory.Example;
+using DesingPatternsExamples.Criational.FactoryMethod.Example;
 
 class Program
 {
     static void Main()
     {
+        # region Abstract Factory
+        
+        Console.WriteLine("Modo de Jogo Medieval:");
+        PlayGame(new MedievalFactory());
+
+        Console.WriteLine("\nModo de Jogo Futurista:");
+        PlayGame(new FuturisticFactory());
+        
+        #endregion
+        
         # region Singleton
         // using DesingPatternsExamples.Criational.Singleton;
         //
@@ -37,5 +48,13 @@ class Program
         // processor.ProcessDocument(csvFactory, document);
         #endregion
     }
-}
+    
+    static void PlayGame(ICharacterFactory factory)
+    {
+        var character = factory.CreateCharacter();
+        var weapon = factory.CreateWeapon();
 
+        character.Attack();
+        weapon.UseWeapon();
+    }
+}
