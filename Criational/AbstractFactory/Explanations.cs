@@ -28,5 +28,17 @@ public class Explanations
     // O sistema precisa ser independente de como seus produtos são criados, compostos e representados.
     // O sistema precisa ser configurado com uma das várias famílias de produtos.
     // O sistema precisa fornecer uma biblioteca de classes de produtos e somente suas interfaces devem ser visíveis.
-    // Em resumo, o padrão Abstract Factory é uma maneira de encapsular a criação de famílias de objetos relacionados, permitindo que o cliente trabalhe com abstrações em vez de classes concretas, tornando o sistema mais flexível, escalável e fácil de manter.
+    // Em resumo, o padrão Abstract Factory é uma maneira de encapsular a criação de famílias de objetos relacionados,
+    // permitindo que o cliente trabalhe com abstrações em vez de classes concretas, tornando o sistema mais flexível, escalável e fácil de manter.
+    
+    // ------------
+    
+    // Prós
+    // Você pode ter certeza que os produtos que você obtém de uma fábrica são compatíveis entre si.
+    // Você evita um vínculo forte entre produtos concretos e o código cliente.
+    // Princípio de responsabilidade única. Você pode extrair o código de criação do produto para um lugar, fazendo o código ser de fácil manutenção.
+    // Princípio aberto/fechado. Você pode introduzir novas variantes de produtos sem quebrar o código cliente existente.
+    
+    // Contras
+    // O código pode tornar-se mais complicado do que deveria ser, uma vez que muitas novas interfaces e classes são introduzidas junto com o padrão.
 }

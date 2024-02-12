@@ -1,17 +1,38 @@
 ﻿using DesingPatternsExamples.Criational.AbstractFactory.Example;
+using DesingPatternsExamples.Criational.Builder.Example;
+using DesingPatternsExamples.Criational.Builder.Example.Interfaces;
 using DesingPatternsExamples.Criational.FactoryMethod.Example;
 
 class Program
 {
     static void Main()
     {
+        # region Builder
+        
+        // Criando o Builder
+        // IPizzaBuilder builder = new PizzaBuilder();
+        //
+        // // Criando o Diretor
+        // PizzaDirector director = new PizzaDirector(builder);
+        //
+        // // Montando a Pizza
+        // director.MakePizza();
+        //
+        // // Obtendo a Pizza construída
+        // Pizza pizza = builder.GetPizza();
+        //
+        // // Exibindo a Pizza
+        // Console.WriteLine(pizza);
+        
+        #endregion
+        
         # region Abstract Factory
         
-        Console.WriteLine("Modo de Jogo Medieval:");
-        PlayGame(new MedievalFactory());
-
-        Console.WriteLine("\nModo de Jogo Futurista:");
-        PlayGame(new FuturisticFactory());
+        // Console.WriteLine("Modo de Jogo Medieval:");
+        // PlayGame(new MedievalFactory());
+        //
+        // Console.WriteLine("\nModo de Jogo Futurista:");
+        // PlayGame(new FuturisticFactory());
         
         #endregion
         
